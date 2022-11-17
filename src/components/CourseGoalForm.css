@@ -1,0 +1,38 @@
+.inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.inputs label {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.inputs input {
+  /* background-color: red; */
+  display: block;
+  width: 80%;
+  padding: 0.5rem;
+  border: none;
+  box-shadow: 0 0 0 2px #ccc;
+  border-radius: 6px;
+  word-spacing: 2px;
+}
+
+.inputs input:focus {
+  outline: none;
+  border: none;
+  box-shadow: inset 0 0 0 2px #000;
+}
+
+.buttons {
+  margin-top: 10px;
+}
+
+button {
+  background-color: #9c36b5;
+  padding: 10px 12px;
+  border-radius: 9px;
+  color: #fff;
+}

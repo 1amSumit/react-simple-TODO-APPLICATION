@@ -1,0 +1,12 @@
+.GoalItem {
+  background-color: purple;
+  margin: 12px auto;
+  width: 50%;
+  border-radius: 9px;
+  padding: 12px;
+}
+
+.GoalItem__Text {
+  color: #fff;
+  font-size: 20px;
+}
